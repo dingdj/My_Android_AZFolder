@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/clear_color" android:layout_width="@dimen/az_itemview_width" android:layout_height="@dimen/az_itemview_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="top|center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/az_item_img" android:paddingTop="0.0px" android:layout_width="@dimen/az_itemview_img_width" android:layout_height="@dimen/az_itemview_img_height" android:layout_marginTop="@dimen/az_itemview_img_topmargin" android:src="@drawable/icon" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/az_clickring" android:paddingTop="0.0px" android:visibility="invisible" android:layout_width="@dimen/az_itemview_img_width" android:layout_height="@dimen/az_itemview_img_height" android:layout_marginTop="@dimen/az_itemview_img_topmargin" android:src="@drawable/ic_click" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/az_itemview_text_size" android:textColor="@color/az_folder_name_color" android:ellipsize="end" android:gravity="top|center" android:layout_gravity="center_horizontal" android:id="@id/az_item_text" android:layout_width="@dimen/az_itemview_text_width" android:layout_height="@dimen/az_itemview_text_height" android:layout_marginBottom="@dimen/az_itemview_txt_bottommargin" android:singleLine="true" />
+</LinearLayout>

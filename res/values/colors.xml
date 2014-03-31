@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- azFolder -->
+	<color name="az_folder_background_color">#ff000000</color>
+    <color name="az_folder_name_color">#ffffffff</color>
+    <color name="az_folder_name_color_highlighted">#ff333333</color>
+    <color name="az_folder_itemtext_color">#ffffffff</color>
+    <color name="az_folder_headseprateline_color">#ff29baef</color>
+    <color name="az_folder_item_tips_fgcolor">#ffef9200</color>
+    <color name="az_folder_oprbtn_color">#ff404a55</color>
+    <color name="az_folder_zimulist_sel_bkcolor">#ff367cf2</color>
+    <color name="clear_color">#00000000</color>
+    <color name="white_color">#ffffffff</color>
+    <color name="black_color">#ff000000</color>
+    <color name="blue_color">#ff0ebdfe</color>
+    <color name="gray_color">#ff919191</color>
+    <color name="black_font">#ff191919</color>
+	
+</resources>

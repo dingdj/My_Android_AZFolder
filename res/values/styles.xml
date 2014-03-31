@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<style name="app_theme" parent="android:Theme.NoTitleBar">
+		<item name="android:windowBackground">@drawable/app_background</item>
+	</style>	
+	
+	<!-- azFolder -->
+	<style name="FolderGridViewWordsIndex">
+        <item name="android:textSize">@dimen/az_zimulist_textview_size</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/az_zimulist_textview_width</item>
+        <item name="android:layout_height">@dimen/az_zimulist_textview_width</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+	<style name="FolderGridViewWordsFrameStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">@dimen/az_zimulist_textview_width</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_marginLeft">@dimen/az_zimulist_textview_left_pad</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources> 

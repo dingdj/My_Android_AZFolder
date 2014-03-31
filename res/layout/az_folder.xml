@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.azfolder.widget.AZFolder  android:id="@+id/azcontent"
+    android:orientation="vertical" android:background="@color/az_folder_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/folder_bg" android:background="@color/clear_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/az_foldername_height" android:layout_marginTop="@dimen/az_foldername_top_pad" android:layout_marginBottom="@dimen/az_foldername_bottom_pad">
+            <com.example.azfolder.widget.FolderEditText android:textSize="@dimen/az_foldername_size" android:textColor="@color/az_folder_name_color" android:textColorHighlight="@color/az_folder_name_color_highlighted" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/azfolder_name" android:background="@drawable/folder_input_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/az_foldername" android:singleLine="true" android:layout_centerInParent="true" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@null" />
+            <RelativeLayout android:layout_width="@dimen/az_zimulist_width" android:layout_height="@dimen/az_foldername_height" android:layout_alignParentRight="true">
+                <Button android:id="@id/azfolder_searcher" android:background="@drawable/azfoldersearchstyle" android:clickable="true" android:layout_width="@dimen/az_foldeSearch_width" android:layout_height="@dimen/az_foldeSearch_width" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/azfolder_main_frame" android:background="@color/clear_color" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/az_gridview_topMargin" android:layout_weight="1.0">
+            <GridView android:id="@id/az_custom_grid" android:paddingBottom="@dimen/az_gridview_content_pad_bottom" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/az_gridview_leftpad" android:layout_marginRight="@dimen/az_gridview_rightpad" android:listSelector="@android:color/transparent" android:verticalSpacing="@dimen/az_itemviews_port_gap" android:columnWidth="@dimen/az_itemview_img_width" android:numColumns="3" android:layout_alignParentTop="true" android:overScrollMode="never" />
+            <TextView android:textSize="39.0dip" android:textColor="@color/az_folder_name_color" android:gravity="center" android:id="@id/azfolder_textview_centerchar" android:background="@drawable/folder_bg" android:visibility="gone" android:layout_width="@dimen/az_sel_char_tips_width" android:layout_height="@dimen/az_sel_char_tips_width" android:layout_centerInParent="true" />
+            <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/zimulist" android:background="@color/clear_color" android:paddingBottom="@dimen/az_gridview_content_pad_bottom" android:layout_width="@dimen/az_zimulist_width" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <RelativeLayout android:id="@id/az_zimulist_frame_A" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_A" android:text="@string/az_zimulist_A" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_B" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_B" android:text="@string/az_zimulist_B" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_C" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_C" android:text="@string/az_zimulist_C" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_D" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_D" android:text="@string/az_zimulist_D" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_E" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_E" android:text="@string/az_zimulist_E" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_F" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_F" android:text="@string/az_zimulist_F" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_G" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_G" android:text="@string/az_zimulist_G" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_H" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_H" android:text="@string/az_zimulist_H" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_I" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_I" android:text="@string/az_zimulist_I" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_J" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_J" android:text="@string/az_zimulist_J" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_K" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_K" android:text="@string/az_zimulist_K" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_L" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_L" android:text="@string/az_zimulist_L" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_M" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_M" android:text="@string/az_zimulist_M" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_N" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_N" android:text="@string/az_zimulist_N" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_O" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_O" android:text="@string/az_zimulist_O" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_P" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_P" android:text="@string/az_zimulist_P" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_Q" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_Q" android:text="@string/az_zimulist_Q" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_R" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_R" android:text="@string/az_zimulist_R" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_S" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_S" android:text="@string/az_zimulist_S" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_T" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_T" android:text="@string/az_zimulist_T" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_U" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_U" android:text="@string/az_zimulist_U" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_V" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_V" android:text="@string/az_zimulist_V" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_W" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_W" android:text="@string/az_zimulist_W" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_X" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_X" android:text="@string/az_zimulist_X" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_Y" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_Y" android:text="@string/az_zimulist_Y" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_Z" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_Z" android:text="@string/az_zimulist_Z" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/az_zimulist_frame_other" style="@style/FolderGridViewWordsFrameStyle">
+                    <TextView android:id="@id/az_zimulist_other" android:text="@string/az_zimulist_other" style="@style/FolderGridViewWordsIndex" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/az_itemview_text_size" android:textColor="@color/clear_color" android:gravity="center" android:layout_gravity="center" android:id="@id/az_uninstallapps_tips" android:background="@color/clear_color" android:layout_width="wrap_content" android:layout_height="@dimen/az_bottom_cover_height" android:text="@string/az_uninstallapps_tips" android:textAlignment="center" />
+    </LinearLayout>
+</com.example.azfolder.widget.AZFolder>

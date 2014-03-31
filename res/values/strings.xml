@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TabSample!</string>
+    <string name="app_name">AZFolder</string>
+
+ <!-- azFolder -->
+  <string name="az_foldername">其他文件夹</string>
+    <string name="az_zimulist_A">A</string>
+    <string name="az_zimulist_B">B</string>
+    <string name="az_zimulist_C">C</string>
+    <string name="az_zimulist_D">D</string>
+    <string name="az_zimulist_E">E</string>
+    <string name="az_zimulist_F">F</string>
+    <string name="az_zimulist_G">G</string>
+    <string name="az_zimulist_H">H</string>
+    <string name="az_zimulist_I">I</string>
+    <string name="az_zimulist_J">J</string>
+    <string name="az_zimulist_K">K</string>
+    <string name="az_zimulist_L">L</string>
+    <string name="az_zimulist_M">M</string>
+    <string name="az_zimulist_N">N</string>
+    <string name="az_zimulist_O">O</string>
+    <string name="az_zimulist_P">P</string>
+    <string name="az_zimulist_Q">Q</string>
+    <string name="az_zimulist_R">R</string>
+    <string name="az_zimulist_S">S</string>
+    <string name="az_zimulist_T">T</string>
+    <string name="az_zimulist_U">U</string>
+    <string name="az_zimulist_V">V</string>
+    <string name="az_zimulist_W">W</string>
+    <string name="az_zimulist_X">X</string>
+    <string name="az_zimulist_Y">Y</string>
+    <string name="az_zimulist_Z">Z</string>
+    <string name="az_zimulist_other">\#</string>
+    <string name="az_add">添加</string>
+    <string name="az_cancel">取消</string>
+    <string name="az_uninstallapps_tips">好多不用的预装应用？清理一下</string>
+</resources>
